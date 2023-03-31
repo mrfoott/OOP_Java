@@ -83,8 +83,8 @@ public class Account {
 
     public boolean transfer(Account acc2, double amount) {
         if (acc2.balance >= amount && amount > 0.0) {
-            balance = balance + amount;
-            acc2.balance -= amount;
+            balance = balance - amount;
+            acc2.balance += amount;
             return true;
         } else {
             return false;
