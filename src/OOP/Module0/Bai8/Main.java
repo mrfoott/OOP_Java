@@ -24,15 +24,15 @@ public class Main {
             System.out.println("CD Quantity: " + cdList.cdQuantity());
             System.out.println("Total Price: " + cdList.totalPrice());
             System.out.println();
-            System.out.println("=====================\n");
+            System.out.println("=======================================================\n");
             System.out.println("Sort by decreasing price");
             cdList.sortDecreasingPrice();
             System.out.println(cdList.toString());
-            System.out.println("=====================\n");
+            System.out.println("=======================================================\n\n");
             System.out.println("Sort by alphabet CD Name");
             cdList.sortIncreasingAlphabeticallyCdName();
             System.out.println(cdList.toString());
-            System.out.println("=====================\n");
+            System.out.println("=======================================================\n");
             cdList.addCD(cd7);
             System.out.println(cdList.toString());
         } catch (Exception exception) {
