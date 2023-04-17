@@ -1,4 +1,4 @@
-package OOP.K22PF02;
+package OOP.K22PF02.Lab1;
 
 import java.util.Scanner;
 
